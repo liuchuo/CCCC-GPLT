@@ -15,39 +15,31 @@ L2-015. 互评成绩
 输出样例：
 87.667 88.000 96.000
 
-分析：total数组保存各个同学的平均分，v数组保存每次接收得到的分数，排序后取前m名，按递增输出
-#include <iostream>
+#include <cstdio>
 #include <vector>
 #include <algorithm>
 using namespace std;
-int cmp1(double a, double b) {
-    return a > b;
-}
+int cmp1(double a, double b) {return a > b;}
 int main() {
     int n, k, m;
-    cin >> n >> k >> m;
+    scanf("%d %d %d", &n, &k, &m);
     vector<double> total;
     for(int i = 0; i < n; i++) {
-        vector<double> v;
+        vector<double> v(k);
+        double maxn = -1, minn = 101, average = 0.0;
         for(int j = 0; j < k; j++) {
-            double temp;
-            cin >> temp;
-            v.push_back(temp);
-        }
-        sort(v.begin(), v.end());
-        double average = 0.0;
-        for(int j = 1; j < v.size() - 1; j++) {
+            scanf("%lf", v[j]);
+            maxn = max(maxn, v[j]);
+            minn = min(minn, v[j]);
             average += v[j];
         }
-        average = average / (v.size() - 2);
+        average = average / (k - 2);
         total.push_back(average);
     }
     sort(total.begin(), total.end(), cmp1);
-    if(m != 0) {
+    if(m != 0)
         printf("%.3f", total[m - 1]);
-    }
-    for(int i = m - 2; i >= 0; i--) {
+    for(int i = m - 2; i >= 0; i--)
         printf(" %.3f", total[i]);
-    }
     return 0;
 }
