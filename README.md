@@ -1,4 +1,5 @@
 - 我的博客地址：http://www.liuchuo.net/
+
 # PAT团体程序设计天梯赛GPLT题解
 
 |   ID   | Title           |                C/C++（附分析）                | 备注                    |
