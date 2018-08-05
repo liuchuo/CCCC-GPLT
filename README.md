@@ -1,4 +1,4 @@
-- 我的博客地址：http://www.liuchuo.net/
+- 我的博客地址：https://www.liuchuo.net/
 
 # PAT团体程序设计天梯赛GPLT题解
 
