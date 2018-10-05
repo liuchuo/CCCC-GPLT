@@ -4,6 +4,7 @@
 
 # PAT团体程序设计天梯赛GPLT题解
 
+
 |   ID   |             Title              |                       C/C++                       | Python                                            |                 备注                  |
 | :----: | :----------------------------: | :-----------------------------------------------: | ------------------------------------------------- | :-----------------------------------: |
 | L1-001 |          Hello World           | [查看题解](http://www.liuchuo.net/archives/2412)  | [查看题解](https://www.liuchuo.net/archives/5419) |                 水题                  |
@@ -89,7 +90,7 @@
 | L2-025 |            分而治之            | [查看题解](https://www.liuchuo.net/archives/5105) |                                                   |                  图                   |
 | L2-026 |             小字辈             | [查看题解](https://www.liuchuo.net/archives/5107) |                                                   |            BFS广度优先搜索            |
 | L2-027 |         名人堂与代金券         | [查看题解](https://www.liuchuo.net/archives/5109) |                                                   |                 排序                  |
-| L2-028 |          秀恩爱分得快          |                                                   |                                                   |                                       |
+| L2-028 |          秀恩爱分得快          | [查看题解](https://www.liuchuo.net/archives/5646) |                                                   |                                       |
 | L3-001 |             凑零钱             | [查看题解](http://www.liuchuo.net/archives/2327)  |                                                   |           01背包，动态规划            |
 | L3-002 |              堆栈              | [查看题解](http://www.liuchuo.net/archives/2263)  |                                                   |               树状数组                |
 | L3-003 |            社交集群            | [查看题解](http://www.liuchuo.net/archives/2185)  |                                                   |                并查集                 |
@@ -111,4 +112,3 @@
 | L3-019 |            代码排版            |                                                   |                                                   |                                       |
 | L3-020 |         至多删三个字符         |                                                   |                                                   |                                       |
 | L3-021 |              神坛              |                                                   |                                                   |                                       |
-
