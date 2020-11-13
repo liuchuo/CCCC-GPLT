@@ -11,12 +11,12 @@ int main() {
         vector<double> v(k);
         double maxn = -1, minn = 101, average = 0.0;
         for(int j = 0; j < k; j++) {
-            scanf("%lf", v[j]);
+            scanf("%lf", &v[j]);
             maxn = max(maxn, v[j]);
             minn = min(minn, v[j]);
             average += v[j];
         }
-        average = average / (k - 2);
+        average = (average-maxn-minn) / (k - 2);
         total.push_back(average);
     }
     sort(total.begin(), total.end(), cmp1);
